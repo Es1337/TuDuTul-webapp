@@ -1,1 +1,1 @@
-web: gunicorn tudutul.wsgi
+web: gunicorn tudutul.tudutul.wsgi
