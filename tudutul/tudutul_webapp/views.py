@@ -1,6 +1,6 @@
-from django.shortcuts import render
 from django.http import HttpResponse
+from django.shortcuts import render
 
-def index(request):
-    return HttpResponse("Hello World! Landing Page.")
-# Create your views here.
+
+def index(request, *args, **kwargs):
+    return render(request, 'tudutul-webapp/index.html')
